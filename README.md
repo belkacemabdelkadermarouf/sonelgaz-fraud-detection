@@ -1,87 +1,133 @@
-Electrical Fraud Detection & Anomaly Analysis System
-Author: Belakcem Abdelakder Marouf
+<h1 align="center">⚡ Electrical Fraud Detection & Anomaly Analysis System</h1>
 
-Project: Intelligent system for classifying and predicting fraudulent consumption patterns in electrical distribution networks.
+<p align="center">
+  <strong>Intelligent system for detecting and predicting fraudulent electricity consumption</strong>
+</p>
 
-Table of Contents
-Overview
+<p align="center">
+  Author: <b>Belkacem Abdelkader Marouf</b>
+</p>
 
-Key Features
+<hr>
 
-Project Structure
+<h2>📌 Overview</h2>
+<p>
+This project focuses on detecting <b>Non-Technical Losses (NTL)</b> such as electricity theft and meter tampering 
+within power distribution networks.
+</p>
 
-Installation
+<p>
+Using <b>unsupervised machine learning</b>, the system analyzes consumption patterns and identifies abnormal behaviors 
+that significantly deviate from expected usage.
+</p>
 
-Usage
+<p><b>Goal:</b></p>
+<ul>
+  <li>Detect fraud early</li>
+  <li>Prioritize inspections</li>
+  <li>Improve grid efficiency</li>
+</ul>
 
-Contribution
+<hr>
 
-License
+<h2>🚀 Key Features</h2>
+<ul>
+  <li>✅ <b>Fraud Classification:</b> Classifies users as Normal or Suspicious</li>
+  <li>✅ <b>Anomaly Detection:</b> Uses Isolation Forest algorithm</li>
+  <li>✅ <b>Predictive Analysis:</b> Identifies high-risk customers</li>
+  <li>✅ <b>Regional Insights:</b> Detects fraud hotspots (Ghriss, Sig, Tighennif)</li>
+  <li>✅ <b>Interactive Dashboards:</b> Plotly-based visual reports</li>
+</ul>
 
-Overview
-This project is designed to detect Non-Technical Losses (NTL)—specifically electricity theft and meter tampering—within the regional grid. By utilizing unsupervised machine learning, the system identifies consumption profiles that deviate significantly from historical norms, allowing utility providers like Sonelgaz to prioritize physical audits and improve network stability.
+<hr>
 
-Key Features
-✅ Fraud Classification: Automatically flags profiles as "Normal" or "Suspicious" based on consumption-to-deviation ratios.
+<h2>📁 Project Structure</h2>
 
-✅ Predictive ML Modeling: Employs the Isolation Forest algorithm to assign anomaly scores and predict high-risk accounts.
-
-✅ Regional Analytics: Visualizes fraud hotspots across different districts (Ghriss, Sig, Tighennif, etc.).
-
-✅ Interactive Dashboards: Generates a professional Plotly-based report for decision-makers.
-
-Project Structure
-Plaintext
+<pre>
 fraud_detection_project/
 ├── src/
-│   ├── main.py                # Main system orchestrator
-│   ├── visualization.py       # Professional dashboard generation logic
+│   ├── main.py
+│   ├── visualization.py
 │   └── analyzers/
-│       └── fraud_detector.py  # ML Anomaly Detection engine
+│       └── fraud_detector.py
+│
 ├── data/
-│   ├── sonelgaz_mascara_data.xlsx  # Regional consumption dataset
-│   ├── fraud_classified.csv        # Output: Categorized anomalies
-│   └── risk_predictions.csv        # Output: High-risk future targets
-├── reports/                   # Interactive HTML dashboards (Excluded from Git)
-├── requirements.txt           # Project dependencies
-└── .gitignore                 # Prevents large HTML/data files from cluttering the repo
-Installation
-Clone the repository:
+│   ├── sonelgaz_mascara_data.xlsx
+│   ├── fraud_classified.csv
+│   └── risk_predictions.csv
+│
+├── reports/
+├── requirements.txt
+└── .gitignore
+</pre>
 
-Bash
-git clone https://github.com/your-username/fraud_detection_project.git
-Set up the Python Environment:
+<hr>
 
-Bash
-# Create a virtual environment
-python -m venv venv
+<h2>⚙️ Installation</h2>
 
-# Activate it (Windows)
-venv\Scripts\activate
+<h3>1. Clone Repository</h3>
+<pre><code>git clone https://github.com/your-username/fraud_detection_project.git
+cd fraud_detection_project</code></pre>
 
-# Activate it (Mac/Linux)
-source venv/bin/activate
-Install Dependencies:
+<h3>2. Create Virtual Environment</h3>
+<pre><code>python -m venv venv</code></pre>
 
-Bash
-pip install -r requirements.txt
-Usage
-Run the Detection System:
+<p><b>Activate:</b></p>
+<ul>
+  <li><b>Windows:</b> <code>venv\Scripts\activate</code></li>
+  <li><b>Mac/Linux:</b> <code>source venv/bin/activate</code></li>
+</ul>
 
-Bash
-python src/main.py
-Access the Results:
+<h3>3. Install Dependencies</h3>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-Visual Report: Open reports/fraud_dashboard.html in any web browser to see the interactive charts.
+<hr>
 
-Data Logs: Review data/fraud_classified.csv for a full list of suspicious Customer IDs.
+<h2>▶️ Usage</h2>
+<pre><code>python src/main.py</code></pre>
 
-Contribution
-Contributions are welcome! If you have ideas to improve the detection accuracy:
+<hr>
 
-Fork this repository.
+<h2>📊 Results</h2>
 
-Create a branch for your feature (git checkout -b feature/NewAlgorithm).
+<h3>📈 Dashboard</h3>
+<p>Open: <code>reports/fraud_dashboard.html</code> in your browser</p>
 
-Submit a Pull Request.
+<h3>📄 Outputs</h3>
+<ul>
+  <li><b>fraud_classified.csv</b> → Classified users</li>
+  <li><b>risk_predictions.csv</b> → High-risk users</li>
+</ul>
 
+<hr>
+
+<h2>🤝 Contribution</h2>
+<p>Contributions are welcome!</p>
+
+<ol>
+  <li>Fork the repository</li>
+  <li>Create a branch:
+    <pre><code>git checkout -b feature/new-feature</code></pre>
+  </li>
+  <li>Commit changes</li>
+  <li>Submit a Pull Request</li>
+</ol>
+
+<hr>
+
+<h2>📜 License</h2>
+<p>This project is licensed under the <b>MIT License</b>.</p>
+
+<hr>
+
+<h2>💡 Future Improvements</h2>
+<ul>
+  <li>Real-time smart meter integration</li>
+  <li>Deep learning models</li>
+  <li>Web dashboard deployment</li>
+  <li>API for utility companies</li>
+</ul>
+
+<hr>
+
+<p align="center">🚀 Built for innovation, impact, and smarter energy systems</p>
