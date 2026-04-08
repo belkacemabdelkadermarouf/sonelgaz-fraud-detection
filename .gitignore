@@ -1,0 +1,16 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Excel temporary files
+~$*.xlsx
+
+# Generated Reports (Keep the code clean)
+src/reports/*.html
+reports/*.html
