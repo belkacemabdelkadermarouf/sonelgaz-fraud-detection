@@ -63,7 +63,7 @@ fraud_detection_project/
 
 <hr>
 
-<h2>⚙️ Installation</h2>
+<h2>Installation</h2>
 
 <h3>1. Clone Repository</h3>
 <pre><code>git clone https://github.com/your-username/fraud_detection_project.git
