@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Electrical Fraud Detection & Anomaly Analysis System</h1>
+<h1 align="center"> Electrical Fraud Detection & Anomaly Analysis System</h1>
 
 <p align="center">
   <strong>Intelligent system for detecting and predicting fraudulent electricity consumption</strong>
@@ -10,7 +10,7 @@
 
 <hr>
 
-<h2>📌 Overview</h2>
+<h2>Overview</h2>
 <p>
 This project focuses on detecting <b>Non-Technical Losses (NTL)</b> such as electricity theft and meter tampering 
 within power distribution networks.
@@ -30,18 +30,18 @@ that significantly deviate from expected usage.
 
 <hr>
 
-<h2>🚀 Key Features</h2>
+<h2>Key Features</h2>
 <ul>
-  <li>✅ <b>Fraud Classification:</b> Classifies users as Normal or Suspicious</li>
-  <li>✅ <b>Anomaly Detection:</b> Uses Isolation Forest algorithm</li>
-  <li>✅ <b>Predictive Analysis:</b> Identifies high-risk customers</li>
-  <li>✅ <b>Regional Insights:</b> Detects fraud hotspots (Ghriss, Sig, Tighennif)</li>
-  <li>✅ <b>Interactive Dashboards:</b> Plotly-based visual reports</li>
+  <li><b>Fraud Classification:</b> Classifies users as Normal or Suspicious</li>
+  <li><b>Anomaly Detection:</b> Uses Isolation Forest algorithm</li>
+  <li><b>Predictive Analysis:</b> Identifies high-risk customers</li>
+  <li><b>Regional Insights:</b> Detects fraud hotspots (Ghriss, Sig, Tighennif)</li>
+  <li><b>Interactive Dashboards:</b> Plotly-based visual reports</li>
 </ul>
 
 <hr>
 
-<h2>📁 Project Structure</h2>
+<h2>Project Structure</h2>
 
 <pre>
 fraud_detection_project/
@@ -83,17 +83,17 @@ cd fraud_detection_project</code></pre>
 
 <hr>
 
-<h2>▶️ Usage</h2>
+<h2>Usage</h2>
 <pre><code>python src/main.py</code></pre>
 
 <hr>
 
-<h2>📊 Results</h2>
+<h2>Results</h2>
 
-<h3>📈 Dashboard</h3>
+<h3>Dashboard</h3>
 <p>Open: <code>reports/fraud_dashboard.html</code> in your browser</p>
 
-<h3>📄 Outputs</h3>
+<h3>Outputs</h3>
 <ul>
   <li><b>fraud_classified.csv</b> → Classified users</li>
   <li><b>risk_predictions.csv</b> → High-risk users</li>
@@ -101,7 +101,7 @@ cd fraud_detection_project</code></pre>
 
 <hr>
 
-<h2>🤝 Contribution</h2>
+<h2>Contribution</h2>
 <p>Contributions are welcome!</p>
 
 <ol>
@@ -115,12 +115,12 @@ cd fraud_detection_project</code></pre>
 
 <hr>
 
-<h2>📜 License</h2>
+<h2>License</h2>
 <p>This project is licensed under the <b>MIT License</b>.</p>
 
 <hr>
 
-<h2>💡 Future Improvements</h2>
+<h2>Future Improvements</h2>
 <ul>
   <li>Real-time smart meter integration</li>
   <li>Deep learning models</li>
